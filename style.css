@@ -1,0 +1,174 @@
+body {
+    font-family: 'Cairo', 'Inter', sans-serif;
+    background: linear-gradient(to right, rgb(251, 67, 67), rgb(246, 173, 71));
+}
+header {
+    background: linear-gradient(to right, rgb(255, 2, 2), rgb(254, 224, 28));
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.407);
+}
+nav h1 {
+    padding: 5px;
+    color: azure;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10rem;
+    color: azure;
+    list-style-type: none;
+}
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: azure;
+}
+a:hover {
+    color: rgb(251, 251, 116);
+}
+.white_word {
+    justify-self: center;
+    color: azure;
+}
+.menu {
+    padding: 5px;
+    background-color: rgb(248, 57, 57);
+    margin: 20px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 350px;
+    text-align: center;
+    color: #fefdfd;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    transform-origin: center;
+    font-weight: 600;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.407);
+}
+.menu:hover {
+    transform: scale(1.020);
+    background: linear-gradient(to right, rgb(253, 89, 1), rgb(254, 171, 46));
+}
+.contact {
+    padding: 15px;
+    text-decoration: none;
+    display: flex;
+    font-size: large;
+    color: rgb(251, 252, 253);
+    justify-self: center;
+    transition: 0.5s ease;
+    transform-origin: center;
+    font-weight: 700;
+}
+.contact:hover {
+    color: rgb(246, 241, 93);
+    transform: scale(1.040);
+}
+.pak_pak_site {
+    font-size: large;
+    display: flex;
+    justify-self: center;
+    color: rgb(255, 234, 0);
+    text-decoration: none;
+    transition: 0.3s ease;
+    transform-origin: left;
+    font-weight: 700;
+}
+.pak_pak_site:hover {
+    color: rgb(247, 216, 105);
+    transform: scale(1.040);
+}
+.burger_img {
+    transition: 0.5s ease;
+    transform-origin: right;
+    position: absolute;
+    right: 0;
+    height: auto;
+    font-size: 200px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.407);
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.407);
+}
+.chicken_img {
+    transition: 0.5s ease;
+    transform-origin: left;
+    position: absolute;
+    left: 0;
+    height: auto;
+    font-size: 200px;
+    text-shadow: 0px 4px 4px rgba(24, 24, 24, 0.523);
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.407);
+}
+@media (max-width: 1000px) {
+    .chicken_img, .burger_img {
+        display: none;
+    }
+}
+.foter {
+    color: #f5f56fac;
+    justify-self: center;
+}
+.burger_img:hover {
+    transform: scale(1.020);
+    background: rgb(246, 173, 71);
+}
+.chicken_img:hover {
+    transform: scale(1.020);
+    background: rgb(246, 71, 71);
+}
+.pak-pak {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.017), rgba(0, 0, 0, 0.017));
+    padding: 5px;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.499);
+}
+@media (max-width: 600px) {
+    nav li {
+        display: none;
+    }
+    nav hr {
+        display: none;
+    }
+    header {
+        padding: 5px;
+    }
+}
+.facebook {
+    transition: 0.5s ease;
+    transform-origin: center;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 50px;
+    margin: 0 auto;
+    font-size: 20px;
+    justify-content: center;
+
+    border-radius: 100px;
+}
+.facebook img {
+    width: 50px;
+}
+.facebook:hover {
+    transform: scale(1.05);
+    background: rgba(156, 156, 254, 0.687);
+    box-shadow: 0px 4px 9px rgb(114, 114, 243);
+}
+@media (max-width: 100px) {
+    .facebook {
+        width: 50%;
+    }
+
+}
